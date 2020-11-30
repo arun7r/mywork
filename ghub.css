@@ -1,0 +1,47 @@
+body{
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+label{
+    font-weight: 600;
+}
+
+.container-sm{
+    max-width: 544px;
+}
+
+#signupdetails{
+    padding-top: 7%;
+}
+
+
+#ghnavbar{
+    padding-left: 17%;
+    padding-right: 17%;
+}
+
+
+/* changes text color of navbar but idk how to change hover color
+
+.nav-link{
+    color:#fafbfc !important;    
+    }
+
+the method used below works perfectly    
+*/
+
+
+nav .navbar-nav li a{
+    color: #fafbfc !important;
+    }
+
+nav .navbar-nav li a:hover{
+    color: #959da5 !important;
+    }    
+   
+#gitmsg  h1{
+    font-size: 48px !important;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
